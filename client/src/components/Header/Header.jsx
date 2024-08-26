@@ -39,7 +39,7 @@ const Header = () => {
 
       {location.pathname === '/' ? (
         <div className="text-box">
-          <h1>Brookshire College</h1>
+          <h1>The Central College</h1>
           <p>
             Education is the most powerful weapon which you can use to change the world
             <br />- Nelson Mandela
