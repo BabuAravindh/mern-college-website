@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Application Form for Postgraduate Studies</title>
+    <link rel="stylesheet" href="../css/user.css">
+  </head>
+
+  <body>
+    <form>
+      <h2>Application Form for Postgraduate Studies</h2>
+
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="whatsapp">WhatsApp Number:</label>
+          <input type="tel" id="whatsapp" name="whatsapp" required>
+        </div>
+
+        <div class="form-group">
+          <label for="residentia-address">residential-address:</label>
+          <input type="text" id="Address" name="Address" required>
+        </div>
+
+        <div class="form-group">
+            <label for="aadhar-no">aadhar-no:</label>
+            <input type="number" id="aadhar-no" name="aadhar-no" required>
+          </div>
+
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="nationality">Nationality:</label>
+          <input type="text" id="nationality" name="nationality" required>
+        </div>
+      </fieldset>
+    
+      <fieldset>
+        <legend>Education</legend>
+        <div class="form-group">
+            <label for="percentage">Permanenet register no:</label>
+            <input type="number" id="register-no" name="register-no" required>
+          </div>
+        <div class="form-group">
+          <label for="percentage">Percentage in 10th:</label>
+          <input type="number" id="percentage" name="percentage" required>
+        </div>
+        <div class="form-group">
+            <label for="percentage">Percentage in 12th:</label>
+            <input type="number" id="percentage" name="percentage" required>
+          </div>
+          <div class="form-group">
+            <label for="percentage">school studied:</label>
+            <input type="text" id="school" name="school" required>
+          </div>
+
+    
+       
+    
+        <div class="form-group">
+          <label for="photo">Photo:</label>
+          <input type="file" id="photo" name="photo" required>
+        </div>
+      </fieldset>
+    
+      <fieldset>
+        <legend>Program Information</legend>
+        <div class="form-group">
+          <label for="program">Program of Interest:</label>
+          <select id="program" name="program" required>
+            <option value="">Select Program</option>
+            <option value="masters">Masters</option>
+            <option value="doctorate">Doctorate</option>
+          </select>
+        </div>
+    
+        <div class="form-group">
+          <label for="research">signature:</label>
+          <input type="file" id="research" name="research" required>
+        </div>
+    
+       
+      </fieldset>
+    
+      <div class="form-group">
+        <input type="submit" value="Submit Application">
+      </div>
+    </form>
+    
+</body>
+</html>

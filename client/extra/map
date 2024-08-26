@@ -1,0 +1,9 @@
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3931.175405830232!2d78.16238387478286!3d9.835630975841957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00fab2102cf835%3A0x64e0dd01744bf1f5!2sK.L.N.%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1724566120563!5m2!1sen!2sin" 
+          width="600" 
+          height="450" 
+          style={{ border: 0 }} 
+          allowFullScreen 
+          loading="lazy"
+          title="College Location"
+        ></iframe>

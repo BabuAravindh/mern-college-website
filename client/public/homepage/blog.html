@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../src/App.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="../students/login.php">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online programs for 2021</h1>
+    </section>
+<!-----------------------------blog page content---------------------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="../images/certificate.jpg" alt="">
+            <h2>Our Certificate & Online programs for 2021</h2>
+            <p>Our course is a comprehensive program designed to provide students with a thorough understanding of web development. We cover all the basics, from HTML and CSS to advanced concepts like building dynamic web applications with JavaScript and 
+                React. Throughout the course, we emphasize hands-on learning, with real-world projects and exercises that allow students to apply their skills in a practical setting. This approach 
+                ensures that students develop a deep understanding of the material and gain valuable experience that will serve them well in their future careers.</p><br>
+            <p>In addition to technical skills, our course also covers important topics such as web design, web accessibility, and web security. We believe that a well-rounded education is crucial for success in the field of web development, and our curriculum reflects 
+                this belief. Our experienced instructors provide personalized guidance and support throughout the course, ensuring that every student has the opportunity to reach their full potential.</p><br>
+                <h3>online course</h3><br>
+            <p>Our Course is ideal for anyone who is interested in a career in web development, whether they're just starting out or looking to build on their existing skills. Our curriculum is designed to be accessible to students with a range of backgrounds and experience levels, and we pride ourselves on providing a supportive and inclusive learning environment.</p><br>
+            <p>Our online program is an ideal option for anyone who wants to learn web development from anywhere in the world. With access to a comprehensive curriculum and a team of experienced instructors, students can progress through the program at their own pace, on their own schedule. We understand that many students have busy lives and competing priorities, and we've designed our online program to be as flexible and convenient as possible.</p><br>
+            <p>Our online program includes interactive online courses, real-world projects, and personalized feedback from instructors. Students can learn at their own pace, pausing and resuming their studies as needed. In addition, our program includes a range of resources and support tools, such as webinars, tutorials, and forums. This allows students to connect with other learners and instructors, and to get the help they need to succeed.</p><br>
+            <p>Whether you're a beginner or an experienced developer looking to advance your skills, our online program provides the tools and support you need to succeed in the world of web development. We're committed to providing a high-quality education that is accessible to everyone, regardless of their location or schedule. With our online program, you can take the first step towards a rewarding career in web development, without sacrificing your other commitments.</p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form action="contact.php" method="post" class="comment-form">
+                    <input type="text" name="name" placeholder="enter your name" required>
+                    <input type="text"  name="email" placeholder="enter email address" required>
+                    <input type="text" name="subject" placeholder="enter your subject" required >
+                    <textarea   name="message" rows="8" placeholder="message" required></textarea>
+                    <button type="submit" class="home-btn red-btn" name="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+       
+         <div class="blog-right">
+        <h3>Post categories</h3>
+        <div>
+                <span>Busniess Analytics</span>
+                <span>21</span>
+        </div>
+        <div>
+            <span>Date Science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>29</span>
+        </div>
+         <div>
+        <span>Machine Learning</span>
+        <span>15</span>
+         </div>
+         <div>
+        <span>Journalism</span>
+        <span>22</span>
+         </div>
+        <div>
+         <span>Commerce</span>
+          <span>30</span>
+         </div>
+        </div>
+        
+   </div>
+
+</section>
+<!-- ------footer--------- -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Welcome to our company! We are dedicated to providing the best services to our customers.<br> Our team consists of experienced professionals who are committed to meeting your needs and exceeding your expectations. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    </section>
+
+    <script>
+        var navLink=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.left="0";
+        }
+        function hidemenu(){
+            navLinks.style.left="-200px";
+       
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../src/App.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="../students/login.php">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+<!-- about us content --------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>we are the largest university</h1>
+            <p>Welcome to the future , a leading institution of higher education dedicated to academic excellence, innovation, and social responsibility.
+
+                Founded in [Year], our college has a rich history of providing students with the knowledge, skills, and experiences they need to succeed in their chosen fields. Our mission is to empower students to become ethical leaders and global citizens who are prepared to tackle the complex challenges of the 21st century.
+                
+                At [College Name], we offer a wide range of academic programs and degrees designed to meet the needs of students with diverse interests and career goals. Our faculty members are experts in their fields and are committed to providing students with an exceptional educational experience that emphasizes hands-on learning, critical thinking, and problem-solving skills.
+                
+                In addition to our academic programs, we offer a vibrant campus life that includes a wide range of student organizations, clubs, and athletic teams. Our campus is home to state-of-the-art facilities, including modern classrooms, labs, and athletic facilities, as well as comfortable housing and dining options.
+                
+                We are also proud of our commitment to research and innovation, which is reflected in our partnerships with industry leaders and other research institutions. Our students and faculty are engaged in cutting-edge research and development initiatives that are helping to address some of the world's most pressing challenges.
+                
+                We are proud of our alumni network, which includes thousands of successful professionals who are making a difference in their communities and around the world. Our graduates are leaders in fields such as business, education, healthcare, engineering, and the arts.
+                
+                Thank you for considering [College Name] for your educational journey. We look forward to helping you achieve your academic and career goals.
+                </p>
+            <a href="" class="home-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="../images/about.png">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------footer--------- -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Welcome to our company! We are dedicated to providing the best services to our customers.<br> Our team consists of experienced professionals who are committed to meeting your needs and exceeding your expectations. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    </section>
+
+    <script>
+        var navLink=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.left="0";
+        }
+        function hidemenu(){
+            navLinks.style.left="-200px";
+       
+        }
+    </script>
+</body>
+</html>

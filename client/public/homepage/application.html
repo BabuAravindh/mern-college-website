@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Application Form for Postgraduate Studies</title>
+    <link rel="stylesheet" href="../css/user.css">
+  </head>
+
+  <body>
+    <form action="application.php" method="POST" enctype="multipart/form-data">
+      <h2>Application Form for Postgraduate Studies</h2>
+
+      <!-- Personal Information -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div class="form-group">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="whatsapp">WhatsApp:</label>
+          <input type="text" id="whatsapp" name="whatsapp">
+        </div>
+
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea id="address" name="Address" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="form-group">
+          <label for="aadhar-no">Aadhar Number:</label>
+          <input type="text" id="aadhar-no" name="aadhar-no" required>
+        </div>
+
+        <div class="form-group">
+          <label for="nationality">Nationality:</label>
+          <input type="text" id="nationality" name="nationality" required>
+        </div>
+      </fieldset>
+
+      <!-- Education -->
+      <fieldset>
+        <legend>Education</legend>
+        <div class="form-group">
+          <label for="degree">Degree:</label>
+          <input type="text" id="degree" name="degree" required>
+        </div>
+
+        <div class="form-group">
+          <label for="university">University:</label>
+          <input type="text" id="university" name="university" required>
+        </div>
+
+        <div class="form-group">
+          <label for="grad_year">Year of Graduation:</label>
+          <input type="text" id="grad_year" name="grad_year" required>
+        </div>
+
+        <div class="form-group">
+          <label for="Percentage">Percentage/CGPA:</label>
+          <input type="text" id="Percentage" name="Percentage" required>
+        </div>
+
+        <div class="form-group">
+          <label for="program">Program:</label>
+          <input type="text" id="program" name="program" required>
+        </div>
+      </fieldset>
+
+      <!-- Photo -->
+      <fieldset>
+        <legend>Photo</legend>
+        <div class="form-group">
+          <label for="photo">Photo:</label>
+          <input type="file" id="photo" name="photo-file" accept="image/*" required>
+        </div>
+      </fieldset>
+
+      <!-- Signature -->
+      <fieldset>
+        <legend>Signature</legend>
+        <div class="form-group">
+          <label for="signature">Signature:</label>
+          <input type="file" id="signature" name="signature-file" accept="image/*">
+        </div>
+      </fieldset>
+
+      <div class="form-group">
+        <input type="submit" value="Submit Application" name="submit">
+      </div>
+    </form>
+  </body>
+</html>
